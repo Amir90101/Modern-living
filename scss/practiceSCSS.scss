@@ -1,0 +1,22 @@
+$fs: 32px;
+$color: red;
+
+@import "reset.scss";
+
+%section{
+    width: 500px;
+    height: 500px;
+    background-color: red;
+    border-radius: 50px;
+}
+
+.main{
+    @extend  %section;
+    p{
+        font-size: 65px;
+        box-shadow: 2px 2px 12px 5px rgb(60, 133, 159);
+    }
+    &:hover{
+        background-color: rgb(113, 55, 55);
+    }
+}

@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ul, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main {
+  width: 500px;
+  height: 500px;
+  background-color: red;
+  border-radius: 50px;
+}
+
+.main p {
+  font-size: 65px;
+  -webkit-box-shadow: 2px 2px 12px 5px rgb(60, 133, 159);
+          box-shadow: 2px 2px 12px 5px rgb(60, 133, 159);
+}
+.main:hover {
+  background-color: rgb(113, 55, 55);
+}
